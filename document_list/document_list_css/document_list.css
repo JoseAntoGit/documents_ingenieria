@@ -1,0 +1,44 @@
+.document_list{
+	position: absolute;
+	left:160px;
+	top:280px;
+	width: 65%;
+	z-index: -1;
+}
+
+.title_table{
+	font-size: 18px;
+	color: rgb(59, 57, 57);
+	margin: 5px 10px;
+}
+
+table{
+	text-align: center;
+	margin-left: 10px;
+	color: rgb(59, 57, 57);
+	width: 100%;
+  font-size: 13px;
+  border-spacing: 10px;
+}
+
+th{
+	border-bottom: 1px solid grey;
+	margin:10px;
+  font-size: 14px;
+}
+
+.row{
+	border-radius: 5px;
+	margin: 15px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.10);
+}
+
+.row a{
+	text-decoration: none;
+	color: rgb(59, 57, 57);
+}
+
+td{
+	padding: 10px;
+	margin:20px;
+}

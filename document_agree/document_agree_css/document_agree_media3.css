@@ -1,0 +1,36 @@
+@media screen and (max-width:650px){
+
+  .document_agree{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    left: 40px;
+  	top:60px;
+    width: 75%;
+  	border: none;
+
+  }
+
+  .agree{
+  	padding: 6px;
+  	margin:0px;
+    width: 100%;
+    background-color: #66CC66;
+    justify-content: center;
+    text-align: -webkit-center;
+  }
+
+  .icon_button_agree{
+  	display: block;
+    background: white;
+    border:none;
+    border-radius: 50%;
+    color:#66CC66;
+    margin: 0px;
+    height: 30px;
+    width: 30px
+  }
+
+  .button_agree{
+  	display:none;
+  }
+}

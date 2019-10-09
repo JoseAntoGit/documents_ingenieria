@@ -1,0 +1,37 @@
+@media screen and (max-width:750px){
+
+  body{
+    font-size: 14px;
+  }
+
+  .header{
+    grid-template-columns: 1fr 1fr;
+    height: 65px;
+    margin-bottom: 10px;
+    box-shadow: none;
+  }
+
+  .logo{
+    height: 60px;
+  	padding-left: 15px;
+  }
+
+  .element_header{
+    display:flex;
+    height: 100%;
+    margin:0;
+    padding: 0px;
+  }
+
+  .search_text{
+    width:150px;
+  }
+
+   .submain{
+    padding: 25px 8px;
+    }  
+    
+  .submain_list{
+    margin-top: 23px;
+    }
+}

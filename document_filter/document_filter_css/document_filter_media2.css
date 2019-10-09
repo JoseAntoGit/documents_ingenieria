@@ -1,0 +1,93 @@
+@media screen and (max-width:900px){
+
+  .document_filter_box{
+    display: block;
+    position: absolute;
+    right: 0px;
+  	top:70px;
+  	background-color: white;
+  	width:2%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    animation-duration: 0.8s;
+      animation-fill-mode: forwards;
+  }
+    
+    @keyframes filter_box{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 34%;
+
+        }
+    }
+    
+     @keyframes filter_box2{
+        0%{
+            width: 34%;
+        }
+        100%{
+            width: 2%;
+
+        }
+    }
+
+  .document_filter{
+    display: none;
+    width: 30%;
+    box-shadow:none; 
+    animation-name: filter;
+    animation-duration: 1s;
+}
+
+    @keyframes filter{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 30%;
+
+        }
+    }
+
+      .bigbox{
+  	display: grid;
+    animation-name: bigbox;
+    animation-duration: 2.5s;
+}
+
+    @keyframes bigbox{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+
+  .box_date2{
+  		display: grid;
+  	}
+
+  .icon_arrow_filter{
+    background: white;
+  	display: block;
+    color:grey;
+    border:none;
+    padding: 250px 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+
+  .icon-arrow_back_ios{
+    font-size: 15px;
+    animation-name: arrow;
+    animation-duration: 1s;
+      animation-fill-mode: forwards;
+  }
+
+
+}

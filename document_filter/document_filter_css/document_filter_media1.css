@@ -1,0 +1,30 @@
+@media screen and (max-width:1200px){
+
+  .document_filter{
+  	width: 15%;
+  }
+
+  .bigbox{
+  	display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box_date2{
+  		display: flex;
+  		flex-wrap: wrap;
+  	}
+
+    .box_date4{
+    		border:none;
+    }
+
+    .ul_button_filter{
+      padding: 0px;
+      margin:0px;
+      margin-left: 15px;
+    }
+
+    .button_filter{
+    		margin-right: 0px;
+    }
+}

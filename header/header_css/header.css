@@ -1,0 +1,137 @@
+.header{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  width: 100%;
+  min-width: 350px;
+  height: 70px;
+  background-color: #343a40;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.6);
+  margin:0px;
+  align-items: center;
+  color:white;
+}
+
+.logo{
+  display: block;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.element_header{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  height: 100%;
+  margin: 0 0 0 auto;
+  align-items: center;
+  list-style-type: none;
+}
+
+/*elemento inicio>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.home{
+  padding: 10px 15px;
+}
+
+.home_text{
+  text-decoration: none;
+}
+
+.icon-home{
+  display: none;
+}
+
+/*Elemento de busquedad>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.search{
+  display: flex;
+  padding: 10px 15px;
+}
+
+.search_text{
+  width:200px;
+  margin: 0px;
+  padding:5px;
+  border-bottom-left-radius:5px;
+  border-top-left-radius: 5px;
+  border: none;
+}
+
+.search_button{
+  background-color: #66CC66;
+  margin:0px;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-right-radius:5px;
+  border-top-right-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.search_cross{
+  display:none;
+  background: none;
+  border: none;
+  color:white;
+}
+
+/*elemento de usuarios>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.user{
+  display:flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.user_name{
+  text-decoration: none;
+  color: white;
+}
+
+.user_img{
+	height: 35px;
+  padding: 4px;
+}
+
+/*elemento submenu>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.submain_header{
+  position: relative;
+  margin:0;
+  align-items: center;
+  padding: 26px 8px;
+  color: white;
+  transition: all 1s;
+}
+
+.submain_header_list{
+  position: absolute;
+  display: none;
+  width: 150px;
+  right: 0px;
+  margin-top: 25px;
+  padding: 0px;
+  background-color: #66CC66;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius: 4px;
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+  z-index:1;
+    transition: all 1s;
+}
+
+.submain_header_list li {
+  padding: 9px 17px;
+  font-size: 12px;
+    transition: all 1s;
+}
+
+.submain_header:hover{
+  background: #707070;
+    transition: all 1s;
+}
+
+.submain_header:hover .submain_header_list{
+  display: block;
+}
+
+.submain_header_list li:hover{
+  background-color: #239523;
+}

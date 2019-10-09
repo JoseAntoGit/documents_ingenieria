@@ -1,0 +1,65 @@
+@media screen and (max-width:650px){
+
+  .document_filter_box{
+    display: block;
+    position: absolute;
+  	right: 0px;
+  	top:60px;
+  	background-color: #66CC66;
+    width: auto;
+  	height: 32px;
+  	padding: 5px;
+    left:83.5%;
+    box-shadow: none;
+    text-align: -webkit-center;
+    border-radius: 0px;
+    border-left: 2px solid white;
+  }
+
+  .document_filter_box2{
+    position: absolute;
+    right: 0px;
+    top:60px;
+    background-color: #66CC66;
+    width: auto;
+    height: 32px;
+    padding: 5px;
+    left:83.5%;
+    box-shadow: none;
+    text-align: -webkit-center;
+    border-radius: 0px;
+    border-left: 2px solid white;
+  }
+
+  .icon_button_filter{
+    display: block;
+    background: white;
+    border:none;
+    border-radius: 50%;
+    color:#66CC66;
+    margin: 0px;
+    height: 30px;
+    width: 30px;
+    margin:0px;
+  }
+
+  .document_filter{
+  display: none;
+    z-index: 4;
+    width: 45%;
+    top:100px;
+  }
+
+  .icon_arrow_filter{
+  	display:none;
+  }
+
+  .bigbox{
+    display: flex;
+    width:140px;
+  }
+
+  .title_filter{
+    display: block;
+  }
+}

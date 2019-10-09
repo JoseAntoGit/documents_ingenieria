@@ -1,0 +1,17 @@
+@media screen and (max-width:1000px){
+  .document_agree{
+  	width: 67%;
+  }
+
+  .agree{
+  	padding:0px;
+  	margin:0px;
+  	margin-bottom: 18px;
+  }
+
+  .img_agree{
+  	display:none;
+  }
+
+
+}

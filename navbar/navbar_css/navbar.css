@@ -1,0 +1,146 @@
+.overlay1{
+  display: none;
+  position: fixed;
+  top:0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.section_navbar{
+  display: block;
+  position: absolute;
+  margin: 0px;
+  height: calc(100%-70px);
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+.button_main{
+	 display:none;
+	 background-color: #66CC66;
+   border: none;
+	 font-size: 18px;
+	 padding: 10px;
+	 color:white;
+}
+
+.button_main2{
+  display: none;
+  background-color: #66CC66;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  color:white;
+}
+
+.navbar{
+  margin:0px;
+  padding: 5px;
+  display:grid;
+  grid-template-columns: 140px;
+  width: 140px;
+  font-family: arial;
+}
+
+.button_submain{
+  font-size: 14px;
+  padding: 18px 12px;
+  background-color: #66CC66;
+  border-radius: 2px;
+  border:none;
+  color: white;
+}
+
+.button_submain:hover{
+  background-color: #239523;
+}
+
+.icon-triangle-down{
+  padding-left: 5px;
+}
+
+.icon-triangle-up{
+  padding-left: 5px;
+  display: none;
+}
+
+.submain{
+  display: none;
+  position: relative;
+  height: 0px;
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  animation-name: none;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes submain_down{
+    0%{
+        opacity: 0;
+        height:0;
+    }
+    100%{
+        opacity: 1;
+        height: 132px;
+    }
+
+}
+
+
+@keyframes submain_up{
+    0%{
+        opacity: 1;
+        height: 132px;
+    }
+    100%{
+        opacity: 0;
+        height:0;
+    }
+}
+
+.element_submain{
+  display: block;
+  margin-top: 3px;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #66CC66;
+  border-radius: 2px;
+  color: white;
+}
+
+.element_submain:hover{
+	background-color: #239523;
+}
+
+.main{
+  display: block;
+  position: relative;
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+
+}
+
+.element_main{
+  display: grid;
+  margin-top:2px;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #343a40;
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.element_main:hover{
+	background-color: #707070;
+}

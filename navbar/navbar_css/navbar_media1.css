@@ -1,0 +1,48 @@
+@media screen and (max-width:750px){
+
+  .section_navbar{
+    background: none;
+    box-shadow: none;
+    height: auto;
+    z-index: 1;
+  }
+
+  .button_main{
+      margin: 5px;
+      display: block;
+      border-radius: 50%;
+  }
+
+  .navbar{
+    display: none;
+   /* animation-name: none;
+    animation-duration: 1s;
+    position: relative;*/
+
+  }
+    
+
+
+  @keyframes despliegue_navbar {
+    0%{
+      opacity: 0.5;
+      right: 100%;
+    }
+    100%{
+      opacity: 1;
+      right: 0%;
+    }
+  }
+    
+      @keyframes pliegue_navbar {
+    0%{
+    opacity: 1;
+      right: 0%;
+    }
+    100%{
+    opacity: 0;
+      right: 100%;
+    }
+  }
+    
+}

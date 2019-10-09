@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trackernet</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="documents_ingenieria_imagenes/aorbita.ico">
+  <link rel="stylesheet" href="documents_ingenieria_css/documents_ingenieria.css">
+  <link rel="stylesheet" href="documents_ingenieria_css/documents_ingenieria_media1.css">
+  <link rel="stylesheet" href="documents_ingenieria_css/documents_ingenieria_media2.css">
+  <link rel="stylesheet" href="header/header_css/header.css">
+  <link rel="stylesheet" href="header/header_css/header_media1.css">
+  <link rel="stylesheet" href="header/header_css/header_media2.css">
+  <link rel="stylesheet" href="header/header_font/style.css">
+  <script src="header/header_js/header.js"></script>
+  <link rel="stylesheet" href="navbar/navbar_css/navbar.css">
+  <link rel="stylesheet" href="navbar/navbar_css/navbar_media1.css">
+  <link rel="stylesheet" href="navbar/navbar_css/navbar_media2.css">
+  <link rel="stylesheet" href="navbar/navbar_font/style.css">
+  <script src="navbar/navbar_js/documents_navbar.js"></script>
+  <link rel="stylesheet" href="document_agree/document_agree_css/document_agree.css">
+  <link rel="stylesheet" href="document_agree/document_agree_css/document_agree_media1.css">
+  <link rel="stylesheet" href="document_agree/document_agree_css/document_agree_media2.css">
+  <link rel="stylesheet" href="document_agree\document_agree_css\document_agree_media3.css">
+  <link rel="stylesheet" href="document_agree/document_form_css/document_form.css">
+  <script src="document_agree/document_agree_js/document_agree.js"></script>
+  <link rel="stylesheet" href="document_filter/document_filter_css/document_filter.css">
+  <link rel="stylesheet" href="document_filter/document_filter_css/document_filter_media1.css">
+  <link rel="stylesheet" href="document_filter/document_filter_css/document_filter_media2.css">
+  <link rel="stylesheet" href="document_filter/document_filter_css/document_filter_media3.css">
+  <script src="document_filter/document_filter_js/document_filter.js"></script>
+  <link rel="stylesheet" href="document_list/document_list_css/document_list.css">
+  <link rel="stylesheet" href="document_list/document_list_css/document_list_media1.css">
+  <link rel="stylesheet" href="document_list/document_list_css/document_list_media2.css">
+  <link rel="stylesheet" href="document_list/document_list_css/document_list_media3.css">
+  <link rel="stylesheet" href="document_font/style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+<!--overlay------------------------------------------------------------------------------------------------------------------------------------------>
+<div id="overlay_navbar" class="overlay1">
+</div>
+
+
+
+<!-- CABECERA--------------------------------------------------------------------------------------------------------------------------------------->
+<header id="header" class="header">
+
+  <img src="header/header_imagenes/logblanco.png" alt="logo" class="logo">
+
+    <ul class="element_header">
+
+      <li id="home" class="home">
+        <a id="home_text" class="home_text" href="#" style="color:#66CC66;" >Inicio</a>
+        <a> <span id="home_icon" class="icon-home"></span></a>
+      </li>
+
+      <li id="search" class="search">
+        <input id="search_text" type="text"  class="search_text" name="" value="" placeholder="Buscar">
+        <button id="search_button" type="submid" class="search_button" name="button" onclick="search();"><span class="icon-search"></span></button>
+        <button id="cross" type="submid" class="search_cross" name="button" onclick="exit_search();"><span class="icon-cross"></span></button>
+      </li>
+
+      <li id="user" class="user">
+        <a id="user_name" class="user_name" href="#">José Bello</a>
+        <a><img id="user_img" src="header/header_imagenes/usuario.png" class="user_img" alt="usuario"></a>
+      </li>
+
+      <li id="submain_header" class="submain_header">
+        <span id="submain_icon" class="icon-triangle-down"></span>
+          <ul id="submain_header_list" class="submain_header_list">
+            <li>Ayuda</li>
+            <li>Cerrar Sesión</li>
+          </ul>
+      </li>
+
+      </ul>
+</header>
+
+
+
+<!-- MENU LATERAL------------------------------------------------------------------------------------------------------------------------------------>
+<section class="section_navbar">
+    <button id="button_main" type="submid" class="button_main" name="button" onclick="button_main();"><span class="icon-menu"></span></button>
+    <button id="button_main2" type="submid" class="button_main2" name="button" onclick="button_main2();"><span class="icon-menu"></span></button>
+    <nav id="navbar" class="navbar">
+        <button id="button_submain" type="submid" class="button_submain" name="button" onclick="button_submain();"><span>Departamento</span><span id="icon-triangle-down"class="icon-triangle-down"></span><span id="icon-triangle-up" class="icon-triangle-up"></span></button>
+
+        <ul id="submain" class="submain">
+          <li><a  id="element_submain" class="element_submain">ATC</a></li>
+          <li><a  class="element_submain">Inventario</a></li>
+          <li><a  class="element_submain">Sistemas</a></li>
+        </ul>
+
+        <ul class="main">
+           <li><a href="paginas/dashboard_ingenieria.html"class="element_main">Dashboard</a></li>
+           <li><a href="paginas/documentacion_ingenieria.html"class="element_main">Documentación</a></li>
+           <li><a href="paginas/perfiles_ingenieria.html"class="element_main">Perfiles</a></li>
+           <li><a href="paginas/actividades_ingenieria.html"class="element_main">Actividades</a></li>
+           <li><a href="paginas/desarrollo_ingenieria.html"class="element_main">Desarrollo</a></li>
+           <li><a href="paginas/Plataforma_ingenieria.html"class="element_main">Plataforma</a></li>
+           <li><a href="paginas/serviciotecnico_ingenieria.html"class="element_main">Servicio Tecnico</a></li>
+           <li><a href="paginas/sincronizacion_ingenieria.html"class="element_main">Sincronizacion</a></li>
+         </ul>
+
+    </nav>
+
+</section>
+
+
+
+<!-- MENU PARA AGREGAR DOCUMENTO--------------------------------------------------------------------------------------------------------------->
+  <section class="document_agree">
+    <div class="agree">
+      <button id="icon_button_agree" type="submid" class="icon_button_agree" name="button" onclick="button_video();"><span class="icon-play icon"></span></button>
+      <img class="img_agree"  src="documents_ingenieria_imagenes/video2.png" alt="agree_video">
+      <button id="button_agree_video" type="submid" class="button_agree" name="button" onclick="button_video();">Agregar Video</button>
+    </div>
+    <div class="agree">
+      <button id="icon_button_agree" type="submid" class="icon_button_agree" name="button" onclick="button_doc();"><span class="icon-files-empty  icon"></span></button>
+      <img class="img_agree"  src="documents_ingenieria_imagenes/Doc2.png" alt="agree_doc">
+      <button id="button_agree_video" type="submid" class="button_agree" name="button" onclick="button_doc();">Agregar Documento</button>
+    </div>
+    <div class="agree">
+      <button id="icon_button_agree" type="submid" class="icon_button_agree" name="button" onclick="button_img();"><span class="icon-images  icon"></span></button>
+      <img class="img_agree"  src="documents_ingenieria_imagenes/img.png" alt="agree_doc">
+      <button id="button_agree_video" type="submid" class="button_agree" name="button" onclick="button_img();">Agregar Imagenes</button>
+    </div>
+  </section>
+
+
+
+<!-- MENU PARA FILTRAR DOCUMENTO--------------------------------------------------------------------------------------------------------------->
+
+<div id="document_filter_box" class="document_filter_box">
+      <button id="icon_button_filter" type="submid" class="icon_button_filter" name="button" onclick="icon_button_filter();"><span class="icon-filter  "></span></button>
+      <button id="icon_arrow_filter" type="submid" class="icon_arrow_filter" name="button" onclick="icon_arrow_filter();"><span class="icon-arrow_back_ios "></span></button>
+  </div>
+  <section id="document_filter" class="document_filter">
+    <h1 id="title_filter" class="title_filter">Simplifica tu busquedad</h1>
+      <div id="bigbox" class="bigbox">
+        <ul class="box">
+          <p class="title_subfilter">Tipo</p>
+          <li><input type="radio"><span>Pdf</span> </li>
+          <li><input type="radio"><span>Doc</span> </li>
+          <li><input type="radio"><span>Excel</span> </li>
+          <li><input type="radio"><span>Pptx</span> </li>
+        </ul>
+
+        <ul class="box">
+          <p class="title_subfilter">Área a convenir</p>
+          <li><input type="radio"><span>ATC</span> </li>
+          <li><input type="radio"><span>Ingenieria</span> </li>
+          <li><input type="radio"><span>Inventario</span> </li>
+          <li><input type="radio"><span>Sincronizaciòn</span> </li>
+        </ul>
+
+        <ul class="box box_date">
+          <p class="title_subfilter">Fecha</p>
+          <div class="box_date2">
+            <ul class="box_date3">
+              <li><input type="radio" class=""><span>Hoy</span></li>
+              <li><input type="radio" class=""><span>Ultimos 7 Días</span></li>
+              <li><input type="radio" class=""><span>Ultimos 30 Días</span></li>
+            </ul>
+            <ul class="box_date4">
+              <li><span>Desde:</span><input type="date" class="date"></li>
+              <li><span>Hasta:</span><input type="date" class="date"></li>
+            </ul>
+          </div>
+        </ul>
+
+        <ul class="ul_button_filter">
+          <button id="button_agree_video" type="submid" class="button_filter" name="button" onclick="button_main();">Filtrar</button>
+        </ul>
+
+      </div>
+</section>
+
+
+
+<!-- LISTA DE DOCUMENTO--------------------------------------------------------------------------------------------------------------->
+<section class="document_list">
+
+    <h1 class="title_table" >Listado de Archivos</h1>
+    <table>
+
+      <tr class="row_one" >
+        <th >Nombre</th>
+        <th >Tipo</th>
+        <th >Area a Convenir</th>
+        <th >Fecha</th>
+      </tr>
+
+      <tr class="row">
+        <td><a href="CONSULTA DE UNIDADES CALAMP EN EL PULS.pdf" target="_blank">Consulta de Unidades en el Puls</a></td>
+        <td>Pdf</td>
+        <td>Ingenieria / Sincronizacion</td>
+        <td>27/09/2019</td>
+      </tr>
+
+      <tr class="row">
+        <td><a href="Ve todo con VLC.docx">Carga de unidades en el Puls</a></td>
+        <td>Doc</td>
+        <td>Ingenieria / Sincronizacion</td>
+        <td>27/09/2019</td>
+      </tr>
+
+      <tr class="row">
+        <td><a href="CONSULTA DE UNIDADES CALAMP EN EL PULS.pdf">Consulta de Unidades en el FOTA</a></td>
+        <td>Pdf</td>
+        <td>Ingenieria / Sincronizacion</td>
+        <td>27/09/2019</td>
+      </tr>
+
+      <tr class="row">
+        <td><a href="CONSULTA DE UNIDADES CALAMP EN EL PULS.pdf">Carga de unidades en el FOTA</a></td>
+        <td>Pdf</td>
+        <td>Ingenieria / Sincronizacion</td>
+        <td>27/09/2019</td>
+      </tr>
+
+      <tr class="row">
+        <td><a href="CONSULTA DE UNIDADES CALAMP EN EL PULS.pdf">Consulta de Unidades en el Puls</a></td>
+        <td>Pdf</td>
+        <td>Ingenieria / Sincronizacion</td>
+        <td>27/09/2019</td>
+      </tr>
+
+
+    </table>
+
+
+
+  </section>
+
+  <div id="shadow" class="shadow">
+  </div>
+  <div id="shadow2" class="shadow2">
+  </div>
+
+<article id="overlay" class="overlay">
+  <section class="section_form">
+
+    <form id="form_video" class="form_video">
+      <h3>Agregue el nuevo Video</h3>
+      <button id="agree_cross" type="submid" class="agree_cross" name="button" onclick="exit_agree();"><span class="icon-cross"></span></button>
+      <input class="input_doc" id="responsable" type="text" name="" value="" placeholder="Nombre del archivo" style="width:60%;">
+      <img src="documents_ingenieria_imagenes/img_document.png" class="img_form_doc" alt="imagen">
+      <input class="input_doc" type="text" name="" value="" placeholder="Área a convenir" style="width:40%;">
+      <input class="input_doc"  type="file" name="" value=""placeholder="Ingresar archivo">
+      <div class="">
+        <button class="button_form" id="close_doc" onclick="cerrar();" type="submid" name="button" style="margin-left: 60%" >Cancelar</button>
+        <button class="button_form" id= "acepte_doc" type="submid" name="button">Aceptar</button>
+      </div>
+    </form>
+
+    <form id="form_img" class="form_img">
+      <h3>Agregue la nueva imagen</h3>
+      <button id="agree_cross" type="submid" class="agree_cross" name="button" onclick="exit_agree();"><span class="icon-cross"></span></button>
+      <input class="input_doc" id="responsable" type="text" name="" value="" placeholder="Nombre del archivo" style="width:60%;">
+      <img src="documents_ingenieria_imagenes/img_document.png" class="img_form_doc" alt="imagen">
+      <input class="input_doc" type="text" name="" value="" placeholder="Área a convenir" style="width:40%;">
+      <input class="input_doc"  type="file" name="" value=""placeholder="Ingresar archivo">
+      <div class="">
+        <button class="button_form" id="close_doc" onclick="cerrar();" type="submid" name="button" style="margin-left: 60%" >Cancelar</button>
+        <button class="button_form" id= "acepte_doc" type="submid" name="button">Aceptar</button>
+      </div>
+    </form>
+
+    <form id="form_doc" class="form_doc">
+      <h3>Agregue el nuevo Documento</h3>
+      <button id="agree_cross" type="submid" class="agree_cross" name="button" onclick="exit_agree();"><span class="icon-cross"></span></button>
+      <input class="input_doc" id="responsable" type="text" name="" value="" placeholder="Nombre del archivo" style="width:60%;">
+      <img src="documents_ingenieria_imagenes/img_document.png" class="img_form_doc" alt="imagen">
+      <ul class="form_list_input">
+        <li><p>Tipo:</p></li>
+        <li><input type="radio"><span>Pdf</span> </li>
+        <li><input type="radio"><span>Doc</span> </li>
+        <li><input type="radio"><span>Excel</span> </li>
+        <li><input type="radio"><span>Pptx</span> </li>
+      </ul>
+      <input class="input_doc" type="text" name="" value="" placeholder="Área a convenir" style="width:40%;">
+      <input class="input_doc"  type="file" name="" value=""placeholder="Ingresar archivo">
+      <div class="">
+        <button class="button_form" id="close_doc" onclick="cerrar();" type="submid" name="button" style="margin-left: 60%" >Cancelar</button>
+        <button class="button_form" id= "acepte_doc" type="submid" name="button">Aceptar</button>
+      </div>
+
+    </form>
+  </section>
+</article>
+
+
+
+</body>
+</html>
